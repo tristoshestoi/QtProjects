@@ -1,7 +1,7 @@
 /**
  * @file Fabric.h
- * @author Levashova Anastasia <nastya.levashova.12@mail.ru>
- * @brief Содержит объявление и реализацию классов Object, Cars, People, Fabric
+ * @author Ivakhiuk Valeriy <topkekhs1337@gmail.com>
+ * @brief классы Object, Cars, People и Fabric
  */
 #ifndef LABA_FABRIC_H
 #define LABA_FABRIC_H
@@ -46,10 +46,10 @@ public:
 class People: public Object {
 public:
     /**
-     * @brief Конструктор с параметрами класса People
-     * @param x Координата по ОХ
-     * @param y Координата по OY
-     * @param light Значение светофора, от которого зависит объект
+     * @brief конструктор с параметрами класса People
+     * @param x координата по Х
+     * @param y координата по Y
+     * @param light значение светофора, от которого зависит объект
      */
     People (int x, int y, int light) {
         this->x=x;
@@ -73,10 +73,10 @@ public:
 class Cars: public Object {
 public:
     /**
-     * @brief Конструктор с параметрами класса Cars
-     * @param x Координата по ОХ
-     * @param y Координата по OY
-     * @param light Значение светофора, от которого зависит объект
+     * @brief конструктор с параметрами класса Cars
+     * @param x координата по Х
+     * @param y координата по Y
+     * @param light значение светофора, от которого зависит объект
      */
     Cars (int x, int y, int light){
         this->x=x;
@@ -91,9 +91,9 @@ public:
 class Fabric {
 public:
     /**
-     * @brief Метод для создания объектов классов Cars и People
+     * @brief метод для создания объектов классов Cars и People
      * @param type Тип создаваемого объекта
-     * @return Объект класса Cars или People
+     * @return объект класса Cars или People
      */
     Object* CreateObject(std::string type){
         int a = rand() % 4;

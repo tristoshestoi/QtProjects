@@ -1,6 +1,6 @@
 /**
  * @file Screen.h
- * @author Levashova Anastasia <nastya.levashova.12@mail.ru>
+ * @author Ivakhiuk Valeriy <topkekhs1337@gmail.com>
  * @brief Содержит функцию для вывода перекрестка с объектами
  */
 #ifndef LABA_SCREEN_H

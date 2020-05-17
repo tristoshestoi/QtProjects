@@ -1,6 +1,6 @@
 /**
  * @file Mediator.h
- * @author Levashova Anastasia <nastya.levashova.12@mail.ru>
+ * @author Ivakhiuk Valeriy <topkekhs1337@gmail.com>
  * @brief Содержит объявление и реализацию классов Mediator, Colleaque, GreenObjects, RedObjects, Light, ConcreteMediator
  */
 #ifndef LABA_MEDIATOR_H
