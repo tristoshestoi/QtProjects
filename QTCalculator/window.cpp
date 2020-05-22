@@ -1,4 +1,5 @@
 #include "window.h"
+#include "action.h"
 #include <QLineEdit>
 #include <QGridLayout>
 #include <QPushButton>
