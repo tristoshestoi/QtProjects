@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>pic_1.png</file>
+        <file>pic_2.png</file>
+    </qresource>
+    <qresource prefix="/database">
+        <file>db_messages.txt</file>
+    </qresource>
+</RCC>
